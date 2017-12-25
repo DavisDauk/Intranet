@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://img.wallpapersafari.com/img720/70/89/1qDVRz.jpg");
+}
+
+
+.main_wrapper{
+    width: 800px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 600px;
+    background-color: rgba(0, 204, 255, 0.5);
+}
+
+.main_wrapper:after{
+
+    content: none;
+    opacity: 0.5;
+
+}
+
+.bar{
+    width: auto;
+    height: 60px;
+    background-color: rgb(255, 153, 0);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box{
+    background-color: rgb(172, 230, 0);
+    color: #fff;
+    width: 200px;
+    height: 200px;
+}
+
+.box.f{
+    grid-gap: 0px;
+}
+
+.box.c{
+    grid-gap: 0px;
+}
