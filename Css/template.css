@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://img.wallpapersafari.com/img720/70/89/1qDVRz.jpg");
+    color: white;
+}
+
+.temp_wrap{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 600px;
+    background-color: rgba(0, 204, 255, 0.8);
+    display: block;
+}
+
+.temp_bar{
+    width: auto;
+    height: 60px;
+    background-color: rgb(255, 153, 0);
+    display: block;
+}
+
+.content_wrap{
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
