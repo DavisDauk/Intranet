@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://img.wallpapersafari.com/img720/70/89/1qDVRz.jpg");
+    background-image: url("../photos/gradient-blurred.jpg");
 }
 
 
@@ -10,7 +10,8 @@ body{
     margin-right: auto;
     margin-top: 20px;
     height: 600px;
-    background-color: rgba(0, 204, 255, 0.5);
+    background-color: rgba(134, 223, 255, 0.5);
+    border-radius: 25px 25px 35px 35px;
 }
 
 .main_wrapper:after{
@@ -24,6 +25,7 @@ body{
     width: auto;
     height: 60px;
     background-color: rgb(255, 153, 0);
+    border-radius: 25px 25px 0px 0px;
 }
 
 .grid{
@@ -36,10 +38,13 @@ body{
 }
 
 .box{
-    background-color: rgb(172, 230, 0);
+    background-color: rgb(199, 214, 11);
     color: #fff;
     width: 200px;
     height: 200px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 10px rgb(77, 128, 154);
 }
 
 .box.f{
