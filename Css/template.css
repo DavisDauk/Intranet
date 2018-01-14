@@ -1,8 +1,5 @@
 body{
-<<<<<<< HEAD
-    background-image: url("https://wallpaperscraft.com/image/nature_night_space_beautiful_87724_1920x1080.jpg");
-=======
-    background-image: url("../photos/gradient-blurred.jpg");
+    background: linear-gradient(to bottom, #40405c 0%,#6f71aa 80%,#8a76ab 100%);
 >>>>>>> bbeea4d485aef3ec9fa5c8a1876ab25e4d5359f9
     color: white;
 }
@@ -12,18 +9,18 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    height: 600px;
+    height: 1000px;
     background-color: rgba(134, 223, 255, 0.5);
     display: block;
-    border-radius: 25px 25px 35px 35px;
+    border-radius: 15px 15px 25px 25px;
 }
 
 .temp_bar{
     width: auto;
     height: 60px;
-    background-color: rgb(255, 153, 0);
+    background: linear-gradient(rgb(41, 131, 184),rgb(50, 156, 216));
     display: block;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .content_wrap{
