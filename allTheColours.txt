@@ -1,7 +1,0 @@
-rgb(199, 214, 11) - green
-rgb(29, 99, 173) - dark blue
-rgb(229, 45, 39) - red
-rgb(85, 172, 238) - light blue
-rgb(240, 121, 0) - orange
-rgb(0, 180, 198) - aqua
-rgb(0, 172, 193) - darker aqua
