@@ -25,10 +25,9 @@ body{
 
 .bar{
     width: auto;
-    height: 60px;
-    background-color: rgba(130, 170, 175,0  );
-    border-radius: 15px 15px 0px 0px;
-    display: none;
+    height: 91px;
+    background-color: rgb(50, 154, 215);
+    border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -39,7 +38,7 @@ body{
     grid-gap:25px;
     justify-content: center;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .box{
@@ -61,4 +60,24 @@ body{
 
 .box.c{
     grid-gap: 0px;
+}
+
+.logo{
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+.intranet_txt{
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  position: static;
+  padding-top: 45px;
 }
